@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(135deg, #00aaff, #00ccff 65%, #66ddff);
+    font: bold 32px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #0099cc;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4b4949;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.navigation li{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.navigation li:hover{
+    background: #8a8a8a;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.trabalhos{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trabalhos-card{
+    background: #4b4949;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #00ccff solid;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.trabalhos-card img{
+    background-color: #ffffff;
+    align-items: center;
+    border: 2px #00ccff solid;
+    border-radius: 8px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.controle{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    gap: 20px;
+    background-color: #4b4949;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.controle h2{
+    text-align: center;
+    width: 100%;
+    font: bold 24px Arial, sans-serif;
+}
+
+.controle-flex{
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    border:5px #00ccff groove;
+    border-radius: 10px;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+    max-width: 800px;
+    background-color: aqua;
+    border: 4px #000000 solid;
+    border-radius: 10px;
+}
+
+.cartao h2{
+    text-align: center;
+    padding: 10px;
+    font: bold 32px Arial, sans-serif;
+    word-break: break-all;
+}
+
+.imagem-cartao{
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-cartao img{
+    max-width: 100%;
+}
+
+.mensagem-cartao{
+    text-align: center;
+    padding: 10px;
+    font: 15px Arial, sans-serif;
+    word-break: break-all;
+}
+
+.adcDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    border: 10px #000000 inset;
+    font: bold 17px Brush Script Std, cursive;
+    color: #000000;
+    border-radius: 15px;
+}
+
+.footer {
+    display:flex;
+    margin-top: 20px;
+    justify-content:center;
+    align-items: center;
+    background-color: #4b4949;
+    padding: 10px;
+}
+
+.footer-text{
+    text-align: center;
+    color: #fff;
+}
+
+
+
