@@ -108,6 +108,7 @@ main{
 
 .controle-flex{
     display: flex;
+    flex-wrap: wrap;
     padding: 2px;
     align-items: center;
     border:5px #00ccff groove;
