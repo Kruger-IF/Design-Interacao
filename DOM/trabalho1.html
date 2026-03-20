@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Hugo Kruger</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Trabalhos de Victor Hugo Kruger</h1>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html">Apresentação</a></li>
+            <li><a href="trabalho1.html">Trabalho 1</a></li>
+            <li><a href="trabalho2.html">Trabalho 2</a></li>
+            <li><a href="trabalho3.html">Trabalho 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="controle">
+            <h2>Controles do cartão</h2>
+
+            <div class="controle-flex">
+             <label for="titulo">Título do cartão:</label>
+             <input type="text" id="titulo" name="titulo" maxlength="50">
+            </div>
+
+            <div class="controle-flex">
+                <label for="imagem">Selecione a imagem:</label>
+                <input type="file" id="imagem" accept="image/*">
+            </div>
+
+            <div class="controle-flex">
+             <label for="mensagem">Mensagem:</label>
+             <input type="text" id="mensagem" name="mensagem" maxlength="100">
+            </div>
+
+            <div class="controle-flex">
+                <label for="cor">Cor de fundo:</label>
+                <input type="color" id="cor" name="cor">
+            </div>
+
+            <div class="controle-flex">
+                <label for="corMensagem">Cor da Mensagem:</label>
+                <input type="color" id="corMensagem" name="corMensagem">
+            </div>
+
+            <div class="controle-flex">
+                <label for="tamTexto">Tamanho do texto:</label>
+                <input type="range" id="tamTexto" name="tamTexto" min="10" max="30">
+            </div>
+
+            <div class="controle-flex">
+             <label for="divTexto">Informe o destinatário:</label>
+             <input type="text" id="divTexto" name="divTexto" maxlength="50">
+            </div>
+            
+            <div class="controle-flex">
+             <label for="botao">Inserir destinatário(s): </label>
+                <input type="button" id="botao" name="botao" value="Clique aqui!">
+            </div>
+            
+        </section>
+
+        <section class="cartao">
+                    <h2 id="titulo-cartao">Título do cartão</h2>
+
+                    <div class="imagem-cartao">
+                        <img id="imagemCartao" src="img/image.webp" alt="Imagem do cartão">
+                    </div>
+
+                    <div class="mensagem-cartao">
+                        <p id="mensagemCartao">Mensagem do cartão</p>
+                    </div>
+                    
+        </section>
+        
+        
+    </main>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Sempre a disposição!</p>
+            <p>Victor Hugo Kruger - Design de Interação</p>
+        </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
