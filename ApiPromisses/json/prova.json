@@ -1,0 +1,29 @@
+[
+    {
+        "pergunta": "Qual é esta disciplina do curso?",
+        "opcao": [
+            "Design de Interação",
+            "POO",
+            "IOBD"
+        ],
+        "resposta": 0
+    },
+    {
+        "pergunta": "Qual linguagem é usada para estilizar páginas web?",
+        "opcao": [
+            "HTML",
+            "CSS",
+            "Python"
+        ],
+        "resposta": 1
+    },
+    {
+        "pergunta": "Qual tag HTML representa um parágrafo?",
+            "opcao": [
+            "div",
+            "p",
+            "span"
+        ],
+        "resposta": 1
+    }
+]
